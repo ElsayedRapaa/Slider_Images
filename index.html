@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="background">
+            <img src="./Images/1.jpg" class="bg">
+            <img src="./Images/2.jpg" class="bg">
+            <img src="./Images/3.jpg" class="bg">
+            <img src="./Images/31.jpg" class="bg">
+            <img src="./Images/5.jpg" class="bg">
+            <img src="./Images/6.jpg" class="bg">
+            <img src="./Images/7.jpg" class="bg">
+            <img src="./Images/8.jpg" class="bg">
+            <img src="./Images/9.jpg" class="bg">
+            <img src="./Images/10.jpg" class="bg">
+        </div>
+        <div class="container-slider">
+            <div>
+                <div>
+                    <div class="slider">
+                        <div class="img" id="last">
+                            <img src="./Images/10.jpg" />
+                        </div>
+                        <div class="img">
+                            <img src="./Images/1.jpg" />
+                        </div>
+                        <div class="img">
+                            <img src="./Images/2.jpg" />
+                        </div>
+                        <div class="img">
+                            <img src="./Images/3.jpg" />
+                        </div>
+                        <div class="img">
+                            <img src="./Images/31.jpg" />
+                        </div>
+                        <div class="img">
+                            <img src="./Images/5.jpg" />
+                        </div>
+                        <div class="img">
+                            <img src="./Images/6.jpg" />
+                        </div>
+                        <div class="img">
+                            <img src="./Images/7.jpg" />
+                        </div>
+                        <div class="img">
+                            <img src="./Images/8.jpg" />
+                        </div>
+                        <div class="img">
+                            <img src="./Images/9.jpg" />
+                        </div>
+                        <div class="img">
+                            <img src="./Images/10.jpg" />
+                        </div>
+                        <div class="img" id="first">
+                            <img src="./Images/1.jpg" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button class="btn prev" id="prev"><ion-icon name="chevron-back-outline"></ion-icon></button>
+            <button class="btn next" id="next"><ion-icon name="chevron-forward-outline"></ion-icon></button>
+
+            <ul>
+                <li class="option" data-opt="0"></li>
+                <li class="option" data-opt="1"></li>
+                <li class="option" data-opt="2"></li>
+                <li class="option" data-opt="3"></li>
+                <li class="option" data-opt="4"></li>
+                <li class="option" data-opt="5"></li>
+                <li class="option" data-opt="6"></li>
+                <li class="option" data-opt="7"></li>
+                <li class="option" data-opt="8"></li>
+                <li class="option" data-opt="9"></li>
+            </ul>
+        </div>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="./file.js"></script>
+</body>
+
+</html>
